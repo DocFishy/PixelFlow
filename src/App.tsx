@@ -1,5 +1,7 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { useState, useRef } from 'react';
+import React from 'react'
+
 import { 
   Palette, 
   Code, 

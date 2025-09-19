@@ -1,5 +1,5 @@
 {
-      "name": "One-Page Creative Studio Website",
+      "name": "one-page-creative-studio-website",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -50,16 +50,32 @@
       },
       "devDependencies": {
             "@types/node": "^20.10.0",
-            "@types/react": "^18.3.24",
-            "@types/react-dom": "^18.3.7",
+            "@types/react": "^19.1.13",
+            "@types/react-dom": "^19.1.9",
+            "@vitejs/plugin-react": "^5.0.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
             "gh-pages": "^6.3.0",
-            "vite": "6.3.5"
+            "typescript": "^5.9.2",
+            "vite": "^6.3.5"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build",
-            "preview": "vite preview",
-            "deploy": "gh-pages -d dist"
-      }
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+,
+      "description": "This is a code bundle for One-Page Creative Studio Website. The original project is available at https://www.figma.com/design/THaD7PGTSe9MSLB8hvuGmR/One-Page-Creative-Studio-Website.",
+      "main": "index.js",
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/DocFishy/PixelFlow.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+            "url": "https://github.com/DocFishy/PixelFlow/issues"
+      },
+      "homepage": "https://github.com/DocFishy/PixelFlow#readme"
 }
